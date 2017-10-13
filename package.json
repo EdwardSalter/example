@@ -26,12 +26,16 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-modal": "^2.2.2",
-    "react-styleguidist": "^6.0.4",
+    "react-styleguidist": "^6.0.30",
     "webpack": "^3.4.1"
   },
   "scripts": {
     "start": "styleguidist server",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "styleguide:cli": "styleguidist server",
+    "styleguide:cli:verbose": "styleguidist server --verbose",
+    "styleguide:cli:config": "styleguidist server --config=styleguide.verbose.config.js",
+    "styleguide:node": "node styleguide.js"
   }
 }
