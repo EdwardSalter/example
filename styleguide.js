@@ -1,11 +1,10 @@
 const styleguidist = require('react-styleguidist');
-const styleguide = styleguidist({
-	verbose: true
-});
+const config = require('./styleguide.verbose.config')
+const styleguide = styleguidist(config);
 
 styleguide.server((err, config) => {
    console.log("Verbose should be on? ", config.verbose);
-	
+
   if (err) {
     console.log(err);
   }
