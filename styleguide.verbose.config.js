@@ -12,7 +12,7 @@ module.exports = {
 			loaders: [
 				{
 					test: /\.jsx?$/,
-					exclude: [/node_modules/, /components\\BabelIgnored/],
+					exclude: [/node_modules/, /components[\\\/]BabelIgnored/],
 					loader: 'babel-loader',
 				},
 				{

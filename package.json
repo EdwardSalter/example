@@ -37,5 +37,9 @@
     "styleguide:cli:verbose": "styleguidist server --verbose",
     "styleguide:cli:config": "styleguidist server --config=styleguide.verbose.config.js",
     "styleguide:node": "node styleguide.js"
+  },
+  "devDependencies": {
+    "chalk": "^2.1.0",
+    "react-dev-utils": "^4.1.0"
   }
 }
